@@ -173,22 +173,25 @@ nav{
         width: 100%;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        padding: 10px;
     }
     .banner-section{
-        display: grid;
+        flex-direction : column-reverse;
         grid-template-columns: repeat(1, 1fr);
+        width: 100%;
 
+    }
+    .banner-start{
+        width: 100%;
     }
     .logos{
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        border: none;
-        padding: 0;
+        grid-template-columns: repeat(4, 1fr);
+       
     }
     .logo{
         padding: 0;
         margin: 5px;
-        border: none;
 
     }
     .popular-collections{
